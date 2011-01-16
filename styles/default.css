@@ -1,0 +1,31 @@
+/* general */
+body {
+  overflow: hidden;
+  color: #333;
+  font-family: arial, sans;
+  font-size: 12px;
+  }
+
+a, a:link, a:visited, a:active, a:hover {
+  /*color: #09c;*/
+  color: #666;
+  }
+
+.center {
+  text-align: center;
+  }
+  
+.hidden {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  border-width: 0;
+  font-size: 0;
+  line-height: 0;
+  }
+  
+#loading {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  }

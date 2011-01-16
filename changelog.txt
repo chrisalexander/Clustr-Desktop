@@ -1,0 +1,90 @@
+Todo:
+DONE - Error handling in data object and page
+DONE - graceful death
+DONE - new download manager
+DONE - new upload manager
+DONE- notifies user through taskbar/dock when upload / download complete
+DONE - Bug when dragging on to desktop
+DONE - list view - small icons on each bullet point
+CANT - drag out icon needs fixing as its RUBBISH
+DONE - breadcrumbs should have: dashboard - (workspace name) - folders
+DONE - new UI for grid/list/whatsnew
+DONE - Dashboard link on breadcrumbs
+
+Features requested:
+DONE - The app to actually work :D
+DONE - new workspace icon
+DONE - file upload / download message
+DONE - drag on to folder background
+CANT - drag off mouse icon
+DONE - track versions
+CANT - notifications / approvals on files
+DONE - "Remember Me"
+CANT - dashboard logo branding on workspaces
+DONE - view as list
+DONE - new upload and download queues
+DONE - automatic update
+
+API Wish List:
+- Create Folder method
+- GetFilesAndFoldersForWorkspace and GetFilesAndFoldersForFolders return mime-type for each file
+- GetNews and GetNewsForWorkspace - please please please return a useful URI for a comment - there is currently no way to determine if a comment was on a whiteboard or a file from the returned data
+
+Thur 4th Dec - 1.5 hours
+- Created project
+- Removed everything
+- Added simple page renderer and Huddle class
+
+Fri 5th Dec - 6 hours
+- added the new huddle.window for doing all the resize and moving stuff
+- New loading route is currently huddle.load() [systray.init()] -> huddle.window.load() -> huddle.window.page.load();
+- as opposed to when all objects used to be attached to window, most are now attached to window.huddle
+- brand new page object, replaces old page object - now has new instance for each page created
+- brand new data object, replaces old json object - new instance created for each new page object
+- brand new renderer object, renders tables and the such for sets of data (re-uses table and cell objects from previous versions)
+- re-included dropdown and selection classes
+
+Sat 6th Dec - 3 hours
+- messages
+- re-implemented error messages throughout the app
+
+Sun 7th Dec - 8 hours
+- Fixed scoping issue in messaging handler
+- new Transfer class for handling transfers
+- brand new download and upload classes
+- modified drag class to handle new pages
+- added dragging onto folder backgrounds :D
+- fixed a few issues changing workspaces and pages for breadcrumbs
+
+Mon 8th Dec - 1 hour
+- keystore
+
+Tue 9th Dec - 2 hours
+- fixed drag to desktop bug in XP
+- started on automatic updates and list view
+
+Wed 10th Dec - 2 hours
+- list view
+- started what's new
+- annoying bug with data class and wrong credentials
+
+Fri 19th Dec - 4 hours
+- Refined What's New features
+- new notifications when upload/download completes
+- remembers dimensions of window between sessions
+- auto check for updates - note when you change version now you have to do it in BOTH application descriptor AND huddle.js
+
+Tues 23rd Dec - 2 hours
+- Breadcrumbs modifications
+- list view mods
+- changed it so it doesnt force line breaks
+
+Wed 24th Dec - 2 hours
+- tried everything to get drag out icon to play ball
+- new links for whats new etc.
+
+Wed 7th Jan - 1 hour
+- reviewed features requested
+- commented up files
+- checked through changelog
+- finalised other than download manager

@@ -1,0 +1,77 @@
+/* whats new list */
+ul.whatsnew {
+  margin: -10px 0px 0px -40px;
+  list-style-type: none;
+  }
+
+ul.whatsnew li div.whatsnewitem .whatsnewheader,
+ul.whatsnew li div.whatsnewitem .whatsnewfooter { 
+  position: relative;
+  background: url(../imgs/bg/header-left.png) no-repeat; 
+  }
+
+ul.whatsnew li div.whatsnewitem .whatsnewheader > div,
+ul.whatsnew li div.whatsnewitem .whatsnewfooter > div { 
+  background: url(../imgs/bg/header-bg.png) repeat-x;
+  margin: 0 18px 0 8px;
+  height: 50px;
+  font-size: 11px;
+  }
+  
+ul.whatsnew li div.whatsnewitem .whatsnewheader > div img {
+  position: relative;
+  top: 3px;
+  }
+  
+ul.whatsnew li div.whatsnewitem .whatsnewfooter > div {
+  padding-top: 3px;
+  background-image: url(../imgs/bg/whatsnew-footer-bg.png);
+  height: 25px;
+  margin-bottom: 25px;
+  }
+
+ul.whatsnew li div.whatsnewitem .whatsnewheader > span,
+ul.whatsnew li div.whatsnewitem .whatsnewfooter > div span { 
+  background: url(../imgs/bg/header-right.png) no-repeat;
+  width: 18px;
+  height: 52px;
+  position: absolute;
+  right: 0;
+  top: 0;        
+  }  
+
+ul.whatsnew li div.whatsnewitem .whatsnewfooter {
+  background-image: url(../imgs/bg/whatsnew-footer-left.png);
+  cursor: default;
+  }
+
+ul.whatsnew li div.whatsnewitem .whatsnewfooter > div p {
+  float: left;
+  max-height: 32px;
+  margin: 5px 85px 0px 0px;
+  overflow: hidden;
+  }
+
+ul.whatsnew li div.whatsnewitem .whatsnewfooter > div span { background-image: url(../imgs/bg/whatsnew-footer-right.png); }
+  
+/* content box */    
+ul.whatsnew li div.whatsnewitem div.whatsnew {
+  background: url(../imgs/bg/content-left.png) repeat-y; /* content left edge */ 
+  }
+  
+ul.whatsnew li div.whatsnewitem div.whatsnew > div {
+  background: url(../imgs/bg/content-right.png) repeat-y right; /* content right edge */ 
+  }     
+     
+ul.whatsnew li div.whatsnewitem div.whatsnew > div > div {        
+  background: #eee url(../imgs/bg/content-bg.png) repeat-x; /* content middle grad */ 
+  margin: 0 12px 0 2px;
+  padding: 5px 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  }
+
+ul.whatsnew li div.whatsnewitem .whatsnewheader > div > span {
+  float: left;
+  margin: 12px 0px 0px 5px;
+  }

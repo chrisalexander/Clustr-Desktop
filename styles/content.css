@@ -1,0 +1,205 @@
+/* tabulated data */
+#huddle-app #huddle > div > div #options {
+  font-size: 9px;
+  color: rgb(51, 51, 51);
+  margin: -15px 0px 3px 3px;
+  width: 100%;
+  max-width: 500px;
+  }
+
+#huddle-app #huddle > div > div #options #whatsnew,
+#huddle-app #huddle > div > div #options #whatsnewimg {
+  float: right;
+  padding-right: 3px;
+  }
+#huddle-app #huddle > div > div ul.thumbnails {
+  margin: 0px 0px 0px -10px;
+  list-style-type: none;
+  padding: 0;
+  }
+#huddle-app #huddle > div > div ul.thumbnails:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0px;
+  visibility: hidden;
+  font-size: 0;
+  }
+#huddle-app #huddle > div > div ul.thumbnails li {
+  float: left;
+  margin: 0;
+  padding: 0px 0px 8px 10px;
+  width: 70px;
+  height: 90px;
+  font-size: 9px;
+  cursor: pointer;
+  color: #666;
+  text-align: center;
+  }
+#huddle-app #huddle > div > div ul.thumbnails li span {
+  text-decoration: underline;
+  }
+#huddle-app #huddle > div > div ul.thumbnails li:hover {
+  color: #00526c;
+  }
+#huddle-app #huddle > div > div ul.thumbnails p {
+  z-index: 9;
+  margin: 0;
+  }
+#huddle-app #huddle > div > div .elementimg {
+  border: 1px solid #c7c7c7;
+  padding: 5px 7px 6px;
+  z-index: 8;
+  }
+/* for list items */  
+#huddle-app #huddle > div > div ul.list {
+  margin: 0;
+  padding: 5px 0px 0px;
+  list-style-type: disc;
+  }
+#huddle-app #huddle > div > div ul.list li.list {
+  float: none;
+  font-size: 12px;
+  height: 12px;
+  width: 100%;
+  text-align: left;
+  padding-left: 32px;
+  }
+
+#huddle-app #huddle > div > div ul.list .elementimg {
+  width: 18px;
+  height: 18px;
+  border: 0px solid #000;
+  padding: 0;
+  margin: 0px 10px 0px -10px;
+  float: left;
+  }
+
+/* login page formatting */
+#huddle-app #huddle > div > div #login {
+  text-align: left;
+  position: relative;
+  }
+  
+#huddle-app #huddle > div > div #login form {
+  margin-top: 10px;
+  font-weight: bold;
+  }
+  
+#huddle-app #huddle > div > div #login input, #login button {
+  font-weight: normal;
+  }
+  
+#huddle-app #huddle > div > div #login input {
+  width: 100%;
+  margin: 8px 0px 12px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-width: 2px 1px 1px;
+  }
+  
+#huddle-app #huddle > div > div #login input.checkbox {  
+  width: auto;
+  margin: 0px 3px 12px 0px;
+  padding-top: 3px;
+  }
+  
+#huddle-app #huddle > div > div #login span { 
+  position: relative;
+  top: -2px;
+  }
+  
+#huddle-app #huddle > div > div #login button {
+  position: absolute;
+  right: -2px;
+  width: 60px;
+  margin-top: -30px;
+  padding: 3px;
+  font-size: 11px;
+  }
+  
+#huddle-app #huddle > div > div #login p {
+  margin-top: -15px;
+  }
+
+/* breadcrumbs formatting */
+#huddle-app #huddle > div > div #breadcrumbs {
+  position: relative;
+  font-size: 11px;
+  z-index: 6;
+  top: -20px;
+  left: -20px;
+  margin: 0 -40px 0 0;
+  padding: 2px;
+  background-color: #fff;
+  }
+#huddle-app #huddle > div > div #breadcrumbs a:first-child {
+  background: url("../imgs/arrow.png") no-repeat 0px 2px;
+  margin-left: 3px;
+  padding-left: 12px;
+  }
+#huddle-app #huddle > div > div #breadcrumbs a {
+  color: #999;
+  margin: 0px 3px 0px 4px;
+  }
+  
+/* file page formatting */
+#huddle-app #huddle > div > div #file span {
+  font-weight: bold;
+  }
+#huddle-app #huddle > div > div #file img {
+  margin-top: -10px;
+  }
+#huddle-app #huddle > div > div #file p {
+  margin: 2px 0px 0px;
+  }
+#huddle-app #huddle > div > div #file #downloadLink {
+  text-decoration: underline;
+  cursor: pointer;
+  }
+  
+/* messages */
+#huddle-app #huddle > div > div #msg {
+  width: 240px;
+  height: 120px;
+  position: float;
+  margin: auto;
+  text-align: center;
+  background: url("../imgs/bg/msg.png") no-repeat 0px 0px;
+  }
+  
+#huddle-app #huddle > div > div #msg #link,
+#huddle-app #huddle > div > div #msg #dashboard {  
+  color: #666;
+  text-decoration: underline;
+  cursor: pointer;
+  }
+  
+#huddle-app #huddle > div > div #msg > div {
+  position: relative;
+  overflow: auto;
+  width: 200px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  }
+
+#huddle-app #footer > div span div {
+  float: left;
+  margin: 10px 0px 0px;
+  border: 1px solid #999;
+  border-right-width: 0px;
+  padding: 3px 5px;
+  cursor: pointer;
+  }
+  
+#huddle-app #footer > div span div.last {
+  border-right-width: 1px;
+  }
+#huddle-app #footer > div span div.first {
+  margin-left: 5px;
+  }
+#huddle-app #footer > div span div.selected {  
+  background: url(../imgs/bg/button.png) repeat-x top left;
+  }

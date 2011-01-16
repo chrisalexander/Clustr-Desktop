@@ -1,0 +1,16 @@
+Huddle Desktop Application
+
+### What is it for? ###
+This is a desktop client for the Huddle.net services. It allows you to access your workspaces and files; you can upload folders and files through drag and drop; you can download one or more files or a folder at the time.
+
+### How do I install it? ###
+Simply click the install link above. It will automatically install the Adobe Air runtime, which is required for this application, then install the Huddle application.
+
+### What are the system requirements? ###
+This application runs on Windows, Mac OS and Linux. There are no additional requirements than those of the Adobe Air Runtime - http://www.adobe.com/products/air/systemreqs/
+
+### Why should I use it? ###
+If you're always uploading or downloading files to huddle, or need to do a lot at once!
+
+### Is there anything it doesn't do? ## 
+Yes, but not many! Just a couple of things: if you drag a folder in or out of the application, it will download or upload only the contents of the folder - the folder currently won't be created. E.g. if you drag a folder from your computer onto a folder in the Huddle application, the application will put the contents of that folder in the folder online for you.
